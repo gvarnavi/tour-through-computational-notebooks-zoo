@@ -1,0 +1,54 @@
+@import url("observablehq:default.css");
+@import url("observablehq:theme-near-midnight.css");
+@import url("observablehq:theme-alt.css");
+@import url("observablehq:theme-wide.css");
+
+:root {
+  --theme-foreground-focus: #fff994;
+}
+
+#observablehq-footer {
+  margin: 1rem auto;
+}
+
+#observablehq-footer nav {
+  max-width: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--sans-serif);
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 2rem 0;
+  max-width: none;
+  font-size: 3em;
+  color: var(--theme-foreground-focus);
+}
+
+.hero p {
+  max-width: none;
+  text-align: justify;
+}
+
+blockquote {
+  max-width: none;
+  border-left: 6px solid #ccc;
+  margin-left: 6px;
+  padding-left: 12px;
+  font-size: 1em;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.img-container img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

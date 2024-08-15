@@ -1,0 +1,47 @@
+@import url("observablehq:default.css");
+@import url("observablehq:theme-near-midnight.css");
+@import url("observablehq:theme-alt.css");
+@import url("observablehq:theme-wide.css");
+
+:root {
+  --theme-foreground-focus: #fff994;
+}
+
+h1 {
+  margin: 2rem 0;
+  max-width: none;
+  font-size: 3em;
+  color: var(--theme-foreground-focus);
+}
+
+h2 {
+  color: var(--theme-foreground-focus);
+}
+
+#observablehq-footer {
+  margin: 1rem auto;
+}
+
+#observablehq-footer nav {
+  max-width: none;
+}
+
+#observablehq-main p,
+ul,
+code,
+table {
+  font-size: 1.5rem;
+  max-width: none;
+}
+
+blockquote {
+  max-width: none;
+  border-left: 6px solid #ccc;
+  margin-left: 6px;
+  padding-left: 12px;
+}
+
+#marimo-island img {
+  max-width: 100%;
+}
+
