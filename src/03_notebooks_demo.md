@@ -10,7 +10,7 @@ To demonstrate the power of literate (and polyglot) programming via computationa
 
 ## Mathematica Notebook (Wolfram Language)
 - One of the earliest computational notebooks
-- Demo notebook [here](https://www.wolframcloud.com/obj/gvarnavi/Published/foundry-user-meeting_computational-notebooks-zoo.nb) <span> <img src="./assets/mathematica.svg" height="18px"></span>
+- Demo notebook [here](https://www.wolframcloud.com/obj/gvarnavi/Published/wolfram-cloud-example_lennard-jones-surface-energy.nb) <span> <img src="./assets/mathematica.svg" height="18px"></span>
 
 ## Jupyter Notebook (Python, typically)
 - One of the most popular/flexible computational notebooks
