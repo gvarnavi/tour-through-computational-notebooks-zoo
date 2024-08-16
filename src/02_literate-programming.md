@@ -36,8 +36,8 @@ const sin_sparkline = Plot.plot({
       x: "x",
       y1: 0,
       y2: "y",
-      fill: "var(--theme-foreground-focus)"
-    })
-  ]
+      fill: "var(--theme-foreground-focus)",
+    }),
+  ],
 });
 ```

@@ -1,13 +1,13 @@
 export function sliceParticle(particle, theta) {
-
   const particle_copy = structuredClone(particle);
-  const left = particle_copy.filter((d) => Math.tan(theta % Math.PI) * (d.x + 1e-6) < d.y);
+  const left = particle_copy.filter(
+    (d) => Math.tan(theta % Math.PI) * (d.x + 1e-6) < d.y,
+  );
   const right = particle_copy.filter((x) => !left.includes(x));
   return [left, right];
 }
 
 export function drawNodes(svg, node_data, colorScale) {
-  
   if (colorScale == null) {
     colorScale = (e) => null;
   }
@@ -25,4 +25,3 @@ export function drawNodes(svg, node_data, colorScale) {
 
   return node;
 }
-

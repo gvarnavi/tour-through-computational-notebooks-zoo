@@ -6,14 +6,16 @@
     "build": "rimraf dist && observable build",
     "dev": "observable preview",
     "deploy": "observable deploy",
-    "observable": "observable"
+    "observable": "observable",
+    "prettier": "prettier . --write"
   },
   "dependencies": {
     "@observablehq/framework": "^1.10.1",
     "d3": "^7.9.0",
     "d3-force-md": "^2.2.2",
     "markdown-it-container": "^4.0.0",
-    "markdown-it-footnote": "^4.0.0"
+    "markdown-it-footnote": "^4.0.0",
+    "prettier": "^3.3.3"
   },
   "devDependencies": {
     "rimraf": "^5.0.5"
